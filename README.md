@@ -1,11 +1,44 @@
-# AI Chatbot using Gemini API
+# 🤖 Gemini AI Chatbot
 
-This is a simple Python AI chatbot using Google Gemini API.
+A simple chatbot built using Python and Google's Gemini API.
 
-## Features
-- Chat with AI in terminal
-- Uses Gemini model
+## Technologies Used
 
-## How to Run
+- Python
+- Gemini API
+- python-dotenv
 
-1. Install dependencies:
+## Files
+
+- main.py
+- requirements.txt
+- README.md
+- .gitignore
+
+## Run the Project
+
+1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Add your Gemini API key in a `.env` file
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+3. Run the program
+
+```bash
+python main.py
+```
+
+## Sample Output
+
+```text
+You: What is AI?
+
+AI: Artificial Intelligence is the simulation of human intelligence by machines.
+```
